@@ -1,83 +1,34 @@
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Getting Started
 
-![alt text for screen readers](https://raw.githubusercontent.com/Siumauricio/rippleui/main/docs/public/logo.png "RippleUI Logo")
-
-<h1 align="center">Ripple UI</h1>
-
-<a href="https://www.npmjs.com/package/rippleui">
-    <img src="https://img.shields.io/npm/dm/rippleui.svg?style=flat-round" alt="npm downloads">
-  </a>
-<a href="https://www.npmjs.com/package/rippleui">
-    <img src="https://img.shields.io/npm/v/rippleui?color=green" alt="npm downloads">
-  </a>
-  <a href="https://www.npmjs.com/package/rippleui">
-    <img src="https://img.shields.io/npm/l/rippleui" alt="npm downloads">
-  </a>
-
-  <a href="https://www.npmjs.com/package/rippleui"><img src="https://badgen.net/github/stars/Siumauricio/rippleui" ></a>
-
-
-  ![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/siumauricio/rippleui)
-
-Welcome to the RippleUI repository! This is the home for all of the components, guidelines, and tools that make up our design system.
-
-## Documentation
-
-Visit https://ripple-ui.com to view the full documentation.
-
-
-## 🚀 Usage
-
-To use the RippleUI components, you will need to install the package from npm.
+First, run the development server:
 
 ```bash
-npm install rippleui
+npm run dev
+# or
+yarn dev
 ```
 
-Once you have installed the package, you can import the plugin into your `tailwind.config.js`.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-```js
-module.exports = {
-  // ... the rest of your config
-  plugins: [require('rippleui')],
-}
-```
+You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-To use a component, simply include the appropriate HTML markup in your project and apply the relevant classes using the class naming.
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
-```html
-<button class="btn btn-primary">Click me!</button>
-```
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## 🎨 Components
+## Learn More
 
-Here is a list of all of the components that are currently available in RippleUI.
+To learn more about Next.js, take a look at the following resources:
 
-- Button
-- Input
-- Select
-- Checkbox
-- Radio
-- Switch
-- Textarea
-- Modal
-- Button-Group
-- Tooltip
-- Dropdown
-- Badge
-- Navbar
-- Avatar
-- Breadcrumb
-- Drawer
-- Alert
-- Table
-- Card
-- More components soon....
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## 🤝 Contributing
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-We welcome contributions to the design system! If you have ideas for new components, improvements to existing ones, or updates to the guidelines and tools, please open a pull request with your proposed changes.
+## Deploy on Vercel
 
-## License
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-RippleUI is licensed under the [MIT License](LICENSE).
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

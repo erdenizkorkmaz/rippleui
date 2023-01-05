@@ -1,12 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content:
-    process.env.NODE_ENV === "production"
-      ? [{ raw: "" }]
-      : ["./components/**/*.{html,js}", "./experiments/**/*.{html,js}"],
-  darkMode: "class",
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
     extend: {},
   },
-  plugins: [require("./dist/js")],
+  plugins: [require("rippleui")],
 };
